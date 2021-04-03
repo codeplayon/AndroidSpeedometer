@@ -19,6 +19,7 @@ SpeedometerView Speed;
             public String getLabelFor(double progress, double maxProgress) {
                 return String.valueOf((int) Math.round(progress));
             }
+
         });
 
 // configure value range and ticks
